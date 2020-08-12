@@ -1,0 +1,193 @@
+clean the executable output directory
+Done!
+clean the library output directory
+Done!
+clean the build directory
+Done!
+build the executable output directory
+Done!
+build the library output directory
+Done!
+build the build directory
+Done!
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   serialization
+--   chrono
+--   date_time
+--   atomic
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/soa/nCloud-Backup/build
+/usr/bin/cmake -H/home/soa/nCloud-Backup -B/home/soa/nCloud-Backup/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/soa/nCloud-Backup/build/CMakeFiles /home/soa/nCloud-Backup/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/soa/nCloud-Backup/build'
+make -f src/NCloud/CMakeFiles/NcloudCore.dir/build.make src/NCloud/CMakeFiles/NcloudCore.dir/depend
+make -f src/Util/CMakeFiles/UtilCore.dir/build.make src/Util/CMakeFiles/UtilCore.dir/depend
+make -f src/Database/CMakeFiles/Database.dir/build.make src/Database/CMakeFiles/Database.dir/depend
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/Util /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/Util /home/soa/nCloud-Backup/build/src/Util/CMakeFiles/UtilCore.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/NCloud /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/NCloud /home/soa/nCloud-Backup/build/src/NCloud/CMakeFiles/NcloudCore.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/Database /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/Database /home/soa/nCloud-Backup/build/src/Database/CMakeFiles/Database.dir/DependInfo.cmake --color=
+Scanning dependencies of target NcloudCore
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/NCloud/CMakeFiles/NcloudCore.dir/build.make src/NCloud/CMakeFiles/NcloudCore.dir/build
+Scanning dependencies of target Database
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/Database/CMakeFiles/Database.dir/build.make src/Database/CMakeFiles/Database.dir/build
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+Scanning dependencies of target UtilCore
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/Util/CMakeFiles/UtilCore.dir/build.make src/Util/CMakeFiles/UtilCore.dir/build
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+[  3%] Building CXX object src/NCloud/CMakeFiles/NcloudCore.dir/redisClient.cc.o
+cd /home/soa/nCloud-Backup/build/src/NCloud && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/NcloudCore.dir/redisClient.cc.o -c /home/soa/nCloud-Backup/src/NCloud/redisClient.cc
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+[  6%] Building CXX object src/NCloud/CMakeFiles/NcloudCore.dir/redis_interface.cc.o
+cd /home/soa/nCloud-Backup/build/src/NCloud && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/NcloudCore.dir/redis_interface.cc.o -c /home/soa/nCloud-Backup/src/NCloud/redis_interface.cc
+[ 10%] Building CXX object src/Util/CMakeFiles/UtilCore.dir/readCache.cc.o
+cd /home/soa/nCloud-Backup/build/src/Util && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/UtilCore.dir/readCache.cc.o -c /home/soa/nCloud-Backup/src/Util/readCache.cc
+[ 13%] Building CXX object src/Database/CMakeFiles/Database.dir/database.cc.o
+cd /home/soa/nCloud-Backup/build/src/Database && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/Database.dir/database.cc.o -c /home/soa/nCloud-Backup/src/Database/database.cc
+[ 16%] Building CXX object src/Database/CMakeFiles/Database.dir/factoryDatabase.cc.o
+cd /home/soa/nCloud-Backup/build/src/Database && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/Database.dir/factoryDatabase.cc.o -c /home/soa/nCloud-Backup/src/Database/factoryDatabase.cc
+[ 20%] Linking CXX static library ../../../lib/libNcloudCore.a
+cd /home/soa/nCloud-Backup/build/src/NCloud && /usr/bin/cmake -P CMakeFiles/NcloudCore.dir/cmake_clean_target.cmake
+cd /home/soa/nCloud-Backup/build/src/NCloud && /usr/bin/cmake -E cmake_link_script CMakeFiles/NcloudCore.dir/link.txt --verbose=1
+/usr/bin/llvm-ar qc ../../../lib/libNcloudCore.a  CMakeFiles/NcloudCore.dir/redis_interface.cc.o CMakeFiles/NcloudCore.dir/redisClient.cc.o
+/usr/bin/llvm-ranlib ../../../lib/libNcloudCore.a
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+[ 20%] Built target NcloudCore
+[ 23%] Building CXX object src/Database/CMakeFiles/Database.dir/absDatabase.cc.o
+cd /home/soa/nCloud-Backup/build/src/Database && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/Database.dir/absDatabase.cc.o -c /home/soa/nCloud-Backup/src/Database/absDatabase.cc
+[ 26%] Building CXX object src/Database/CMakeFiles/Database.dir/leveldbDatabase.cc.o
+cd /home/soa/nCloud-Backup/build/src/Database && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/Database.dir/leveldbDatabase.cc.o -c /home/soa/nCloud-Backup/src/Database/leveldbDatabase.cc
+[ 30%] Building CXX object src/Database/CMakeFiles/Database.dir/rocksdbDatabase.cc.o
+cd /home/soa/nCloud-Backup/build/src/Database && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/Database.dir/rocksdbDatabase.cc.o -c /home/soa/nCloud-Backup/src/Database/rocksdbDatabase.cc
+[ 33%] Building CXX object src/Util/CMakeFiles/UtilCore.dir/configure.cc.o
+cd /home/soa/nCloud-Backup/build/src/Util && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/UtilCore.dir/configure.cc.o -c /home/soa/nCloud-Backup/src/Util/configure.cc
+[ 36%] Building CXX object src/Util/CMakeFiles/UtilCore.dir/cryptoPrimitive.cc.o
+cd /home/soa/nCloud-Backup/build/src/Util && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/UtilCore.dir/cryptoPrimitive.cc.o -c /home/soa/nCloud-Backup/src/Util/cryptoPrimitive.cc
+[ 40%] Linking CXX static library ../../../lib/libDatabase.a
+cd /home/soa/nCloud-Backup/build/src/Database && /usr/bin/cmake -P CMakeFiles/Database.dir/cmake_clean_target.cmake
+cd /home/soa/nCloud-Backup/build/src/Database && /usr/bin/cmake -E cmake_link_script CMakeFiles/Database.dir/link.txt --verbose=1
+/usr/bin/llvm-ar qc ../../../lib/libDatabase.a  CMakeFiles/Database.dir/database.cc.o CMakeFiles/Database.dir/factoryDatabase.cc.o CMakeFiles/Database.dir/absDatabase.cc.o CMakeFiles/Database.dir/leveldbDatabase.cc.o CMakeFiles/Database.dir/rocksdbDatabase.cc.o
+/usr/bin/llvm-ranlib ../../../lib/libDatabase.a
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+[ 40%] Built target Database
+[ 43%] Linking CXX static library ../../../lib/libUtilCore.a
+cd /home/soa/nCloud-Backup/build/src/Util && /usr/bin/cmake -P CMakeFiles/UtilCore.dir/cmake_clean_target.cmake
+cd /home/soa/nCloud-Backup/build/src/Util && /usr/bin/cmake -E cmake_link_script CMakeFiles/UtilCore.dir/link.txt --verbose=1
+/usr/bin/llvm-ar qc ../../../lib/libUtilCore.a  CMakeFiles/UtilCore.dir/readCache.cc.o CMakeFiles/UtilCore.dir/configure.cc.o CMakeFiles/UtilCore.dir/cryptoPrimitive.cc.o
+/usr/bin/llvm-ranlib ../../../lib/libUtilCore.a
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+[ 43%] Built target UtilCore
+make -f src/BackupCore/CMakeFiles/BackupCore.dir/build.make src/BackupCore/CMakeFiles/BackupCore.dir/depend
+make -f src/DedupCore/CMakeFiles/DedupCore.dir/build.make src/DedupCore/CMakeFiles/DedupCore.dir/depend
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/DedupCore /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/DedupCore /home/soa/nCloud-Backup/build/src/DedupCore/CMakeFiles/DedupCore.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/BackupCore /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/BackupCore /home/soa/nCloud-Backup/build/src/BackupCore/CMakeFiles/BackupCore.dir/DependInfo.cmake --color=
+Scanning dependencies of target BackupCore
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/BackupCore/CMakeFiles/BackupCore.dir/build.make src/BackupCore/CMakeFiles/BackupCore.dir/build
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+Scanning dependencies of target DedupCore
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/DedupCore/CMakeFiles/DedupCore.dir/build.make src/DedupCore/CMakeFiles/DedupCore.dir/build
+[ 46%] Building CXX object src/BackupCore/CMakeFiles/BackupCore.dir/backupCore.cc.o
+cd /home/soa/nCloud-Backup/build/src/BackupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/BackupCore.dir/backupCore.cc.o -c /home/soa/nCloud-Backup/src/BackupCore/backupCore.cc
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+[ 50%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/compress.cc.o
+[ 53%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/fpWorker.cc.o
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/fpWorker.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/fpWorker.cc
+[ 56%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/recvDecode.cc.o
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/recvDecode.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/recvDecode.cc
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/compress.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/compress.cc
+[ 60%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/container.cc.o
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/container.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/container.cc
+[ 63%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/storageCore.cc.o
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/storageCore.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/storageCore.cc
+[ 66%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/dataWriter.cc.o
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/dataWriter.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/dataWriter.cc
+[ 70%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/chunker.cc.o
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/chunker.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/chunker.cc
+[ 73%] Linking CXX static library ../../../lib/libBackupCore.a
+cd /home/soa/nCloud-Backup/build/src/BackupCore && /usr/bin/cmake -P CMakeFiles/BackupCore.dir/cmake_clean_target.cmake
+cd /home/soa/nCloud-Backup/build/src/BackupCore && /usr/bin/cmake -E cmake_link_script CMakeFiles/BackupCore.dir/link.txt --verbose=1
+/usr/bin/llvm-ar qc ../../../lib/libBackupCore.a  CMakeFiles/BackupCore.dir/backupCore.cc.o
+/usr/bin/llvm-ranlib ../../../lib/libBackupCore.a
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+[ 73%] Built target BackupCore
+[ 76%] Building CXX object src/DedupCore/CMakeFiles/DedupCore.dir/restoreWriter.cc.o
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/DedupCore.dir/restoreWriter.cc.o -c /home/soa/nCloud-Backup/src/DedupCore/restoreWriter.cc
+[ 80%] Linking CXX static library ../../../lib/libDedupCore.a
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/cmake -P CMakeFiles/DedupCore.dir/cmake_clean_target.cmake
+cd /home/soa/nCloud-Backup/build/src/DedupCore && /usr/bin/cmake -E cmake_link_script CMakeFiles/DedupCore.dir/link.txt --verbose=1
+/usr/bin/llvm-ar qc ../../../lib/libDedupCore.a  CMakeFiles/DedupCore.dir/recvDecode.cc.o CMakeFiles/DedupCore.dir/compress.cc.o CMakeFiles/DedupCore.dir/fpWorker.cc.o CMakeFiles/DedupCore.dir/container.cc.o CMakeFiles/DedupCore.dir/storageCore.cc.o CMakeFiles/DedupCore.dir/dataWriter.cc.o CMakeFiles/DedupCore.dir/chunker.cc.o CMakeFiles/DedupCore.dir/restoreWriter.cc.o
+/usr/bin/llvm-ranlib ../../../lib/libDedupCore.a
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+[ 80%] Built target DedupCore
+make -f src/App/CMakeFiles/client.dir/build.make src/App/CMakeFiles/client.dir/depend
+make -f src/App/CMakeFiles/backup.dir/build.make src/App/CMakeFiles/backup.dir/depend
+make -f src/App/CMakeFiles/dedup.dir/build.make src/App/CMakeFiles/dedup.dir/depend
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/App /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/App /home/soa/nCloud-Backup/build/src/App/CMakeFiles/client.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/App /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/App /home/soa/nCloud-Backup/build/src/App/CMakeFiles/dedup.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+cd /home/soa/nCloud-Backup/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/soa/nCloud-Backup /home/soa/nCloud-Backup/src/App /home/soa/nCloud-Backup/build /home/soa/nCloud-Backup/build/src/App /home/soa/nCloud-Backup/build/src/App/CMakeFiles/backup.dir/DependInfo.cmake --color=
+Scanning dependencies of target dedup
+Scanning dependencies of target client
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/App/CMakeFiles/client.dir/build.make src/App/CMakeFiles/client.dir/build
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/App/CMakeFiles/dedup.dir/build.make src/App/CMakeFiles/dedup.dir/build
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+Scanning dependencies of target backup
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+make -f src/App/CMakeFiles/backup.dir/build.make src/App/CMakeFiles/backup.dir/build
+make[2]: Entering directory '/home/soa/nCloud-Backup/build'
+[ 83%] Building CXX object src/App/CMakeFiles/dedup.dir/dedupMain.cc.o
+cd /home/soa/nCloud-Backup/build/src/App && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/dedup.dir/dedupMain.cc.o -c /home/soa/nCloud-Backup/src/App/dedupMain.cc
+[ 86%] Building CXX object src/App/CMakeFiles/client.dir/clientMain.cc.o
+cd /home/soa/nCloud-Backup/build/src/App && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/client.dir/clientMain.cc.o -c /home/soa/nCloud-Backup/src/App/clientMain.cc
+[ 90%] Building CXX object src/App/CMakeFiles/backup.dir/backupMain.cc.o
+cd /home/soa/nCloud-Backup/build/src/App && /usr/bin/clang++    -I/home/soa/nCloud-Backup/ThirdPartyLib/leveldb-1.22/include -I/home/soa/nCloud-Backup/ThirdPartyLib/openssl-1.1.1d/include -I/home/soa/nCloud-Backup/ThirdPartyLib/rocksdb-6.5.3/include -I/home/soa/nCloud-Backup/src/../include  -O3 -std=c++11   -std=gnu++11 -o CMakeFiles/backup.dir/backupMain.cc.o -c /home/soa/nCloud-Backup/src/App/backupMain.cc
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+CMakeFiles/Makefile2:170: recipe for target 'src/App/CMakeFiles/backup.dir/all' failed
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+CMakeFiles/Makefile2:129: recipe for target 'src/App/CMakeFiles/client.dir/all' failed
+make[2]: Leaving directory '/home/soa/nCloud-Backup/build'
+CMakeFiles/Makefile2:211: recipe for target 'src/App/CMakeFiles/dedup.dir/all' failed
+make[1]: Leaving directory '/home/soa/nCloud-Backup/build'
+Makefile:86: recipe for target 'all' failed
